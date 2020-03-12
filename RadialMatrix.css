@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    position:fixed;
+    overflow-x:hidden;
+}
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+div {
+    /*float: left;*/
+    padding: 5px;
+}
+
+input {
+    width: 120px;
+}
+
+svg {
+    /*width: 1042;
+    height: 800;*/
+    /*border: 1px black solid;*/
+}
+
+text {
+    font: 10pt sans-serif;
+    /*font-family: sans-serif;*/
+}
+
+div.inline { display: inline; }
+
+.header {
+    font: 16pt sans-serif;
+    width: 1050px;
+    text-align: center;
+}
+
+.view {
+    position: relative;
+    display: inline-block;
+    /*width: 810;*/
+    width: 1042;
+    height: 800;
+}
+
+.container {
+    display: inline-block;
+/*    position: relative;
+    float: left;*/
+    /*width: 70%;*/
+
+}
+
+.textContainer {
+    display: inline-block;
+    position: relative;
+    /*float: left;*/
+    /*width: 100;*/
+}
+
+.textView {
+    position: relative;
+    height: 800;
+    width: 400;
+}
+
+
+
+.label {
+    font: 8pt sans-serif;
+    /*text-anchor: start; /*start, middle, end*/
+    /*text-align: center;*/
+}
+
+.NER_type {
+    font: 45pt sans-serif;
+    text-anchor: middle;
+    alignment-baseline: hanging;
+    /*fill: lightgrey;*/
+    fill-opacity: 0.2;
+    start-offset: 50%;
+}
+
+.NER_path {
+    position: relative;
+}
+
+.perSelection {
+    position: absolute;
+    width: 150px;
+    top:20px;
+    left:25px;
+    font: 10pt sans-serif;
+}
+.locSelection {
+    position: absolute;
+    width: 150px;
+    top:20px;
+    left:850px;
+    font: 10pt sans-serif;
+}
+.orgSelection {
+    position: absolute;
+    /*width: 150px;*/
+    top:800px;
+    left:430px;
+    font: 10pt sans-serif;
+}
+
+.slider {
+    position: absolute;
+    /*width: 150px;*/
+    top:720px;
+    left:25px;
+}
+
+.slider-range {
+    width: 200px;
+    height: 100px;
+}
+
+.sliderLabel {
+    font: 10pt sans-serif;   
+}
+
+.mark_I-PER {
+    background-color: Orchid;
+    color: white;
+}
+
+.mark_I-LOC {
+    background-color: DarkGoldenRod;
+    color: white;
+}
+
+.mark_I-ORG {
+    background-color: MediumSeaGreen;
+    color: white;
+}
