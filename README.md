@@ -1,6 +1,6 @@
 # Video Demo
 
-Video demo file is `RadialMatrix.mov`.
+Video demo is `RadialMatrix.mov`.
 
 
 # Interactive Visualization
